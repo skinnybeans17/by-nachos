@@ -5,10 +5,10 @@ import nachos from "./Nachos"
 export default function App() {
   return (
     <View style={styles.container}>
-      <FlatList
+      <FlatList style={{width: "100%"}}
       data={nachos}
       renderItem={({item})=>{
-        return <Text>{item.name}</Text>
+      return <View style={{padding: 10, fontSize: 24, borderBottomWidth: 5, borderBottomColor: "#f4cc61"}}><Text style={{padding: 10, fontSize: 24, color: "#f1a514"}}>{item.name} -{item.category}</Text></View>
       }}
       keyExtractor={(item)=>item}
       />
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: '100%',
     marginTop: 60,
-		backgroundColor: 'beige',
+		backgroundColor: '#ffecb3',
 		borderWidth: 1,
 		padding: 5,
 		display: "flex",
