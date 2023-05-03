@@ -1,0 +1,4 @@
+export default history = [
+    {name: "Nachos are chips with cheese! In all seriousness, they're a Mexican dish involving tortilla chips covered with cheese, sometimes cheese sauce. They can also have other toppings as well, such as veggies, meat, sauce, and condiments. They are often served as snacks or appetizers."},
+    {name: "Nachos originated in the state of Texas. Specifically, in the city of Piedras Negras, Coahuia. The person who created nachos was Ignacio Anaya. He nicknamed them after a regular costumer asked for somthing different, and that's where they became what they are today!"}
+]
